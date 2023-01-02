@@ -81,12 +81,12 @@ function draw() {
   }
 
   if (mouseX > windowWidth / 2 + windowHeight / imageRatio / 2) {
-    cursor("/pics/LAYOUT/RIGHT.png");
+    cursor("/Retouching/pics/LAYOUT/RIGHT.png");
   } else if (
     index > 0 &&
     mouseX < windowWidth / 2 - windowHeight / imageRatio / 2
   ) {
-    cursor("/pics/LAYOUT/LEFT.png");
+    cursor("/Retouching/pics/LAYOUT/LEFT.png");
   } else {
     cursor(ARROW);
   }
