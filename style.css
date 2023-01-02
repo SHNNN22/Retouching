@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "ranybold";
+  }
+  .contact {
+    position: absolute;
+    right: 1vw;
+    text-align: right;
+  }
+  #page {
+    position: absolute;
+    bottom: 0;
+    right: 1vw;
+    font-size: 2vh;
+    font-family: "ranyregular";
+  }
+  canvas {
+    margin: auto;
+  }
+  nav p {
+    font-family: "ranymedium";
+    font-size: 2.36vh;
+    margin-top: 0;
+  }
+  nav {
+    position: absolute;
+    list-style: none;
+    height: 100vh;
+  }
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 5vh;
+  }
+  nav li a {
+    font-family: "ranymedium";
+    text-decoration: none;
+  }
+  nav a:visited {
+    color: black;
+  }
+  nav a:hover {
+    color: black;
+    font-style: italic;
+  }
+  nav a:target {
+    color: red;
+  }
+  #p5_loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #p5_loading h2 {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    opacity: 0.9;
+  }
+  .gooey {
+    position: absolute;
+    top: 50%;
+    width: 142px;
+    height: 40px;
+    background: white;
+    filter: contrast(20);
+  }
+  .dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    filter: blur(0px);
+    background: #000;
+    border-radius: 50%;
+    transform: translateX(0);
+    animation: dot 2.8s infinite;
+  }
+  .dots {
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    animation: dots 2.8s infinite;
+  }
+  span {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    filter: blur(0px);
+    background: #000;
+    border-radius: 50%;
+  }
+  @keyframes dot {
+    50% {
+      transform: translateX(96px);
+    }
+  }
+  @keyframes dots {
+    50% {
+      transform: translateX(-31px);
+    }
+  }
+  
+  @-webkit-keyframes spaceboots {
+    0% {
+      -webkit-transform: translate(2px, 1px) rotate(0deg);
+    }
+    10% {
+      -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+      -webkit-transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+      -webkit-transform: translate(0px, 2px) rotate(0deg);
+    }
+    40% {
+      -webkit-transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+      -webkit-transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      -webkit-transform: translate(2px, 1px) rotate(-1deg);
+    }
+    80% {
+      -webkit-transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      -webkit-transform: translate(2px, 2px) rotate(0deg);
+    }
+    100% {
+      -webkit-transform: translate(1px, -2px) rotate(-1deg) opacity(0);
+    }
+  }
+  .shake {
+    -webkit-animation-name: spaceboots;
+    -webkit-animation-duration: 0.8s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  }
+  
