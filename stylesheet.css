@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: "ranybold_italic";
-    src: url("webfontkit-20221219-050901/rany-bold_italic-webfont.woff2")
+    src: url("/Retouching/webfontkit-20221219-050901/rany-bold_italic-webfont.woff2")
         format("woff2"),
-      url("webfontkit-20221219-050901/rany-bold_italic-webfont.woff")
+      url("/Retouching/webfontkit-20221219-050901/rany-bold_italic-webfont.woff")
         format("woff");
     font-weight: normal;
     font-style: normal;
@@ -12,26 +12,26 @@
   
   @font-face {
     font-family: "ranybold";
-    src: url("webfontkit-20221219-050901/rany-bold-webfont.woff2") format("woff2"),
-      url("webfontkit-20221219-050901/rany-bold-webfont.woff") format("woff");
+    src: url("/Retouching/webfontkit-20221219-050901/rany-bold-webfont.woff2") format("woff2"),
+      url("/Retouching/webfontkit-20221219-050901/rany-bold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: "ranyitalic";
-    src: url("webfontkit-20221219-050901/rany-italic-webfont.woff2")
+    src: url("/Retouching/webfontkit-20221219-050901/rany-italic-webfont.woff2")
         format("woff2"),
-      url("webfontkit-20221219-050901/rany-italic-webfont.woff") format("woff");
+      url("/Retouching/webfontkit-20221219-050901/rany-italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: "ranylight_italic";
-    src: url("webfontkit-20221219-050901/rany-light_italic-webfont.woff2")
+    src: url("/Retouching/webfontkit-20221219-050901/rany-light_italic-webfont.woff2")
         format("woff2"),
-      url("webfontkit-20221219-050901/rany-light_italic-webfont.woff")
+      url("/Retouching/webfontkit-20221219-050901/rany-light_italic-webfont.woff")
         format("woff");
     font-weight: normal;
     font-style: normal;
@@ -39,18 +39,18 @@
   
   @font-face {
     font-family: "ranylight";
-    src: url("webfontkit-20221219-050901/rany-light-webfont.woff2")
+    src: url("/Retouching/webfontkit-20221219-050901/rany-light-webfont.woff2")
         format("woff2"),
-      url("webfontkit-20221219-050901/rany-light-webfont.woff") format("woff");
+      url("/Retouching/webfontkit-20221219-050901/rany-light-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: "ranymedium_italic";
-    src: url("webfontkit-20221219-050901/rany-medium_italic-webfont.woff2")
+    src: url("/Retouching/webfontkit-20221219-050901/rany-medium_italic-webfont.woff2")
         format("woff2"),
-      url("webfontkit-20221219-050901/rany-medium_italic-webfont.woff")
+      url("/Retouching/webfontkit-20221219-050901/rany-medium_italic-webfont.woff")
         format("woff");
     font-weight: normal;
     font-style: normal;
@@ -58,17 +58,17 @@
   
   @font-face {
     font-family: "ranymedium";
-    src: url("webfontkit-20221219-050901/rany-medium-webfont.woff2")
+    src: url("/Retouching/webfontkit-20221219-050901/rany-medium-webfont.woff2")
         format("woff2"),
-      url("webfontkit-20221219-050901/rany-medium-webfont.woff") format("woff");
+      url("/Retouching/webfontkit-20221219-050901/rany-medium-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: "ranyregular";
-    src: url("webfontkit-20221219-050901/rany-webfont.woff2") format("woff2"),
-      url("webfontkit-20221219-050901/rany-webfont.woff") format("woff");
+    src: url("/Retouching/webfontkit-20221219-050901/rany-webfont.woff2") format("woff2"),
+      url("/Retouching/webfontkit-20221219-050901/rany-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
