@@ -23,8 +23,6 @@ function preload() {
     allPics = 6;
   } else if (document.title == "Wrinkles") {
     allPics = 9;
-  } else if (document.title == "Apply") {
-    allPics = 13;
   } else if (document.title == "Adjustments") {
     allPics = 14;
   } else if (document.title == "Color Correction") {
