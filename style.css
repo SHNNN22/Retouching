@@ -11,9 +11,9 @@ body {
   }
   #page {
     position: absolute;
-    bottom: 0;
+    bottom: 50%;
     right: 1vw;
-    font-size: 2vh;
+    font-size: 3vh;
     font-family: "ranyregular";
   }
   canvas {
