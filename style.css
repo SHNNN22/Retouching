@@ -11,10 +11,11 @@ body {
   }
   #page {
     position: absolute;
-    bottom: 50%;
+    bottom:  50%;
     right: 1vw;
     font-size: 3vh;
     font-family: "ranyregular";
+    cursor: none;
   }
   canvas {
     margin: auto;
@@ -148,4 +149,17 @@ body {
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
   }
-  
+  footer {
+    font-family: 'ranylight';
+    position: absolute;
+    right: 1vw;
+    bottom: 1vh;
+  }
+  footer, .page, nav {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
