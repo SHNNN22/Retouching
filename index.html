@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="stylesheet.css">
-  <style>
+  <style media="all">
     body {
       background-image: url('/pics/LAYOUT/SHNNNlogo.svg');
       background-size: contain;
@@ -17,10 +17,25 @@
       background-attachment: fixed;
       background-position-x: right;
     }
+    .mobile{display:none}
+    .desktop{display:block}
+    @media (max-width:800px){
+      .desktop {display:none}
+      .mobile {display:block}
+      nav {width: 100%; text-align: center;background-color: rgba(255, 255, 255, .6);}
+    }
   </style>
 </head>
 
 <body>
+  <div class="mobile">
+    <nav>
+      <a href="/index.html">SHANNONk</a>
+      <p> post-production services</p>
+      <h1 class="shake">content not available on mobile devices</h1>
+    </nav>
+  </div>
+  <div class="desktop">
   <nav>
     <a href="/">SHANNONk</a>
     <p> post-production services</p>
@@ -48,7 +63,7 @@
 
   <script src="libraries/p5.js"></script>
   <script src="libraries/p5.dom.js"></script>
-
+  </div>
 </body>
 
 </html>
